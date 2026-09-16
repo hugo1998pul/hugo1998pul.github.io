@@ -1,10 +1,15 @@
-nav {
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+header nav {
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
 }
-li {
+nav li {
     display:inline-block;
     margin: 10px;
     padding-left: 15%;
@@ -16,4 +21,8 @@ header{
 }
 section{
     padding:75px;
+}
+footer{
+    text-align: center;
+    border-bottom: dotted 2px black;
 }
