@@ -1,23 +1,42 @@
 body{
     background-color: bisque;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    margin: 0;
 }
 header nav {
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
+    left:0;
+    background-color: grey;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding: 10px 5%;
+    gap: 60px;
 }
 nav li {
-    display:inline-block;
-    margin: 10px;
-    padding-left: 15%;
     list-style: none;
+    margin:0 50px;
 }
-header{
-    margin: 0;
-    padding: 0;
+nav li:first-child {
+    margin-right: auto; 
+}
+img {   
+    width: 100px ;
+    height: auto;
+}   
+nav a{
+    color: white;
+}
+main{
+    margin-top: 100px;
 }
 section{
     padding:75px;
