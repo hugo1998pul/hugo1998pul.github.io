@@ -34,9 +34,14 @@ img {
 }   
 nav a{
     color: white;
+    text-decoration: none;
 }
 main{
     margin-top: 100px;
+}
+main section img{
+    width: 750px;
+    padding-left: 25%;
 }
 section{
     padding:75px;
