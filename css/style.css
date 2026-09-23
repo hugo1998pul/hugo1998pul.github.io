@@ -50,3 +50,6 @@ footer{
     text-align: center;
     border-bottom: dotted 2px black;
 }
+hr{
+    color: green;
+}
