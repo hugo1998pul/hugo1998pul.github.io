@@ -1,6 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
@@ -15,13 +15,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Guías de Viaje: Descubre Destinos por Todo el Mundo</title>
-  </head>
-  <body>
+    <title>Contacto</title>
+</head>
+<body>
     <header>
       <nav>
         <ul> 
-          <li><img src="img/PhotoshopExtension_Image.png" alt="logo " width="100" height="100"/></li>
+          <li><a href="index.html"><img src="img/PhotoshopExtension_Image.png" alt="logo " width="100" height="100"/></a></li>
           <li><a href="America.html">América</a></li>
           <li><a href="Europa.html">Europa</a></li>
           <li><a href="Africa.html">África</a></li>
@@ -31,23 +31,17 @@
         </ul>
       </nav>
     </header>
-    <main>
-    <section>
-      <h1>Guías de viaje para explorar el mundo</h1>
-      <img src="img/Gemini_Generated_Image_o1876bo1876bo187.jpg" alt="Guías de viaje por América, Europa, África y Asia: fiordos de Noruega, safaris en África, templos de Kioto">
-    </section>
-    <hr>
-    <section>
-      <h3>Explora por destino</h3>
-      <ul>
-        <li><a href="America.html">América</a></li>
-        <li><a href="Europa.html">Europa</a></li>
-        <li><a href="Africa.html">África</a></li>
-        <li><a href="Asia.html">Asia</a></li>
-      </ul>
-    </section>
-<hr>
-    </main>
+    <h1>Contacto</h1>
+    <p>¿Tienes alguna pregunta o necesitas más información? ¡No dudes en contactarnos!</p>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
     <footer>@2026 Hugo Puente Pulupa</footer>
-  </body>
+</body>
 </html>
