@@ -9,7 +9,7 @@ header nav {
     z-index: 1;
     width: 100%;
     left:0;
-    background-color: grey;
+    background-color: #1f3a4d;
     color: white;
     padding: 0;
     margin: 0;
@@ -28,20 +28,22 @@ nav li {
 nav li:first-child {
     margin-right: auto; 
 }
-img {   
-    width: 100px ;
-    height: auto;
-}   
+ 
 nav a{
     color: white;
     text-decoration: none;
+}
+nav li :hover{
+    color: orange;
 }
 main{
     margin-top: 100px;
 }
 main section img{
-    width: 750px;
-    padding-left: 25%;
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
 }
 section{
     padding:75px;
