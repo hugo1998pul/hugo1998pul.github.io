@@ -60,6 +60,15 @@ p{
     font-size: 20px;
     padding: 12px 30px;
 }
+li{
+    list-style: none;
+}
+section:nth-of-type(2) a{
+    text-decoration: none;
+    color:#1f3a4d ;
+}
+
+
 footer{
     text-align: center;
     border-bottom: dotted 2px black;
