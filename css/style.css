@@ -48,7 +48,7 @@ main section img{
 section{
     padding:75px;
 }
-p{
+section:nth-of-type(1) p{
     text-align: center;
 }
 .explora{
@@ -68,6 +68,28 @@ section:nth-of-type(2) a{
     color:#1f3a4d ;
 }
 
+ .consejo {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+      .consejo p{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+      }
+      .consejo p{
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+      }
+     
 
 footer{
     text-align: center;
