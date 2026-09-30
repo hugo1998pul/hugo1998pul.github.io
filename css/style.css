@@ -48,6 +48,18 @@ main section img{
 section{
     padding:75px;
 }
+p{
+    text-align: center;
+}
+.explora{
+    background-color: orange;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    margin: 42%;
+    font-size: 20px;
+    padding: 12px 30px;
+}
 footer{
     text-align: center;
     border-bottom: dotted 2px black;
