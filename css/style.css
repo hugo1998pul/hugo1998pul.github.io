@@ -94,7 +94,9 @@ section:nth-of-type(2) a{
     width: 100%;
     box-sizing: border-box;
       }
-     
+   #tarjeta{
+    width: 400px;
+   }  
 
 footer{
     text-align: center;
