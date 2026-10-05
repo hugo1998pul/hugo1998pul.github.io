@@ -26,8 +26,7 @@ nav ul{
     display: flex;
     align-items: center;
     margin:0;
-    padding: 10px 5%;
-    gap: 60px;
+    padding: 10px 5%;   
 }
 nav li {
     list-style: none;
@@ -54,7 +53,8 @@ main section img{
     margin: 0 auto;
 }
 section{
-    padding:75px;
+    padding:50px;
+    margin: 25px 50px;
 }
 section:nth-of-type(1) p{
     text-align: center;
@@ -64,9 +64,12 @@ section:nth-of-type(1) p{
     border-radius: 40px;
     text-decoration: none;
     color: white;
-    margin: 42%;
+    margin: auto;
     font-size: 20px;
+    display: block;
     padding: 12px 30px;
+    width: 20%;
+    text-align: center;
 }
 li{
     list-style: none;
