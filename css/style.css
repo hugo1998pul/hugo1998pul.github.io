@@ -122,6 +122,11 @@ tr{
     background-color: #1f3a4d;
     color: white;
 }
+td{
+    background-color:#f9f9f9;
+    color: black;
+    padding: 12px;
+}
 footer{
     text-align: center;
     border-bottom: dotted 2px black;
