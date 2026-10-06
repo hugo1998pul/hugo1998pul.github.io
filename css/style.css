@@ -6,6 +6,7 @@ body{
 p, li, a {
     font-family: "Roboto", sans-serif;
     text-align: justify;
+    font-size: 20px;
 }
 h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
@@ -129,6 +130,10 @@ td{
     background-color:#f9f9f9;
     color: black;
     padding: 12px;
+}
+.organizacion li{
+    list-style:square;
+
 }
 footer{
     text-align: center;
