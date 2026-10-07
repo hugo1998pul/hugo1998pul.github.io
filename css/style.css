@@ -137,6 +137,7 @@ td{
 }
 footer{
     text-align: center;
+    border-top: 1px solid red;
 }
 footer p{
     text-align: center;
