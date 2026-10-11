@@ -160,7 +160,13 @@
         font-weight: bold;
     }
     #reservas{
-        color: red;
+        margin: 25px auto;
+    }
+    #reservas h2{
+        text-align: left;
+        color:#1f3a4d;
+        border-left: 2px solid orange;
+        margin-top: 40px;
     }
     footer{
         text-align: center;
