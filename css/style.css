@@ -169,6 +169,17 @@
         margin-top: 40px;
         padding-left: 10px;
     }
+    #reservas li{
+        border-bottom: 2px solid black;
+        padding: 10px;
+    }
+    #reservas a{
+        color: #1f3a4d;
+        font-weight: bold;
+    }
+    #reservas a:hover{
+        color: orange;
+    }
     footer{
         text-align: center;
         border-top: 1px solid red;
