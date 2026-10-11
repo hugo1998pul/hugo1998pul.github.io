@@ -172,6 +172,9 @@
     #reservas li{
         border-bottom: 2px solid black;
         padding: 10px;
+        display: inline-block;
+        width: 49%;
+        box-sizing: border-box;
     }
     #reservas a{
         color: #1f3a4d;
