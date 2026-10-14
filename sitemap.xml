@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://hugo1998pul.github.io/</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/America/index.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/Europa/index.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/Africa/index.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/Asia/index.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/contacto.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/relaciones.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/tarjeta.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/seguros.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/organizacion.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hugo1998pul.github.io/index.html</loc>
+       <lastmod>2026-10-13T10:03:06+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+</urlset>
