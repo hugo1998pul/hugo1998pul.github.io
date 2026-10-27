@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+sitemap: https://hugo1998pul.github.io/sitemap.xml
