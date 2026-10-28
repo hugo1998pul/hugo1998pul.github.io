@@ -109,7 +109,7 @@
         color: black;
     }
     a:hover{
-        color: white;
+        color: orange;
         
     }
     .seguros h1{
@@ -239,6 +239,33 @@
     }
     .metodo section p{
         text-align: left;
+    }
+    section.seguro{
+        display: inline-block;
+        width: 29%;
+        vertical-align: top;
+        box-sizing: border-box;
+        border: 2px solid #1f3a4d;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff3e0;
+    }
+    .seguro h2{
+        text-align: center;
+        margin-top: 0;
+    }
+    .seguro p{
+        font-size: 16px;
+        text-align: left;    
+    }
+    .seguro p:nth-child(3){
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .seguro a{
+        color: #1f3a4d;
     }
     footer p{
         text-align: center;
