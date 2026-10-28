@@ -187,10 +187,7 @@
     #reservas a:hover{
         color: orange;
     }
-    footer{
-        text-align: center;
-        border-top: 1px solid red;
-    }
+    
    .tarjeta h1{
         color: black;
         text-align: center;
@@ -269,6 +266,10 @@
     }
     .seguro a{
         color: #1f3a4d;
+    }
+    footer{
+        text-align: center;
+        border-top: 1px solid black;
     }
     footer p{
         text-align: center;
