@@ -85,7 +85,7 @@
         justify-content: center;
         gap: 30px;
         }
-        .consejo p{
+    .consejo p{
         width: 300px;
         height: 250px;
         background-size: cover;
@@ -95,7 +95,7 @@
         justify-content: center;
         text-decoration: none;
         }
-        .consejo p{
+    .consejo p{
         color: white;
         text-align: center;
         width: 100%;
@@ -109,7 +109,7 @@
         color: black;
     }
     a:hover{
-        color: orange;
+        color: white;
         
     }
     .seguros h1{
