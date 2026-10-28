@@ -60,7 +60,7 @@
     section:nth-of-type(1) p{
         text-align: center;
     }
-    .explora{
+    #explora{
         background-color: orange;
         border-radius: 40px;
         text-decoration: none;
@@ -71,6 +71,9 @@
         padding: 12px 30px;
         width: 20%;
         text-align: center;
+    }
+     a#explora:hover{
+    color: white;
     }
     li{
         list-style: none;
