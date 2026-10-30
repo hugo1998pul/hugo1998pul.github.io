@@ -279,20 +279,19 @@
         
     }
     #paises ol{
-       display: inline-block;
-       margin: 25px;
-       vertical-align: top;
-      
+        padding: 0;
+        margin: 25px;
     }
-    
+     #paises li{
+       display: inline-block;
+       width: 55%;
+       vertical-align: top;
+       box-sizing: border-box;
+    }
     #paises p{
-        display: inline-block;
         padding: 25px;
     }
-    #paises li{
-       margin: 25px;
-        border: 2px solid orange;
-    }
+   
 
     #frecuentes h2{
         border-left: 5px solid orange;
