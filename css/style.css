@@ -269,46 +269,71 @@
         width: 100%;
     }
     .seguro a{
-        color: #1f3a4d;
+    color: #1f3a4d;
     }
-    #paises h2{
-        border-left: 5px solid orange;
+    #paisesgen h1{
+    padding: 10px;
+    margin: 50px 0;
+    border-bottom: 5px solid orange;
+    }
+    #paisesgen p{
+        margin: 0;
         text-align: left;
-        padding-left: 15px;
-        margin: 10px;
-        
     }
-    #paises ol{
-        padding: 0;
-        margin: 25px;
-    }
-     #paises li{
-       display: inline-block;
-       width: 55%;
-       vertical-align: top;
-       box-sizing: border-box;
-    }
-    #paises p{
-        padding: 25px;
-    }
-   
-
-    #frecuentes h2{
-        border-left: 5px solid orange;
-        text-align: left;
-        padding-left: 15px;
-        margin: 10px;
-    }
+   #paises h2{
+    border-left: 5px solid orange;
+    text-align: left;
+    padding-left: 15px;
+    margin: 10px;
+   }
+   #paises ol{
+    padding: 0;
+    margin: 25px;
+   }
+   #paises li{
+    margin: 0;
+    padding: 10px;
+   }
+   #paises li:nth-child(odd){
+    background-color: #fff3e0;
+   }
+   #paises a{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0;
+   }
+   #paises p{
+    display: inline-block;
+    vertical-align:top;
+    width: 65%;
+    margin: 0;
+    text-align: left;
+   }
+   #frecuentes h2{
+     border-left: 5px solid orange;
+    text-align: left;
+    padding-left: 15px;
+    margin: 10px;
+   }
+   #frecuentes div{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 280px;
+    margin: 10px 2px;
+    padding: 10px;
+    background-color: #fff3e0;
+   }
     #frecuentes h3{
         border-bottom: 5px solid orange;
         text-align: center;
-        padding-left: 15px;
-        margin: 50px;
+        margin: 10px;
     }
     #frecuentes p{
         text-align: left;
-        padding-left: 15px;
-        margin: 50px;
+        margin: 10px;
     }
 
     footer{
