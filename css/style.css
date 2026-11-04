@@ -48,6 +48,9 @@
     nav li :hover{
         color: orange;
     }
+    #migas{
+        margin: 150px;
+    }
     main{
         margin-top: 100px;
     }
