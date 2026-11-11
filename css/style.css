@@ -48,6 +48,9 @@
     nav li :hover{
         color: orange;
     }
+    #migas{
+        margin: 150px;
+    }
     main{
         margin-top: 100px;
     }
@@ -138,29 +141,27 @@
         color: black;
         padding: 12px;
     }
-    #buscadores{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .organizacion li{
+        list-style:square;
+
     }
     section.organizacion{
-        width: 28%;
-        min-width: 260px;
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
         box-sizing: border-box;
         margin: 25px;
-        padding: 25px;
         border-radius: 12px;
         border: 2px solid black;
+
     }
-    section.organizacion p:last-child{
-        text-align: center;
-    }
-    section.organizacion a.organizacion{
-        display: inline-block;
-        margin: 0;
-        padding: 8px 20px;
+    a.organizacion{
         color: #1f3a4d;
-        border: 2px solid #1f3a4d;
+        text-align: center;
+        margin: 33.33%;
+        border: 2px solid ;
+        width: auto;
+        
     }
     a.organizacion:hover{
         color: orange;
@@ -252,7 +253,7 @@
         vertical-align: top;
         box-sizing: border-box;
         border: 2px solid #1f3a4d;
-        margin: 30px;
+        margin: 20px;
         padding: 20px;
         background-color: #fff3e0;
     }
