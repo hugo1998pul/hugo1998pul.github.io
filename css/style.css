@@ -48,9 +48,6 @@
     nav li :hover{
         color: orange;
     }
-    #migas{
-        margin: 150px;
-    }
     main{
         margin-top: 100px;
     }
@@ -141,27 +138,29 @@
         color: black;
         padding: 12px;
     }
-    .organizacion li{
-        list-style:square;
-
+    #buscadores{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     section.organizacion{
-        display: inline-block;
-        vertical-align: top;
-        width: 30%;
+        width: 28%;
+        min-width: 260px;
         box-sizing: border-box;
         margin: 25px;
+        padding: 25px;
         border-radius: 12px;
         border: 2px solid black;
-
     }
-    a.organizacion{
-        color: #1f3a4d;
+    section.organizacion p:last-child{
         text-align: center;
-        margin: 33.33%;
-        border: 2px solid ;
-        width: auto;
-        
+    }
+    section.organizacion a.organizacion{
+        display: inline-block;
+        margin: 0;
+        padding: 8px 20px;
+        color: #1f3a4d;
+        border: 2px solid #1f3a4d;
     }
     a.organizacion:hover{
         color: orange;
