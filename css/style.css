@@ -357,6 +357,49 @@
         margin: 10px;
     }
 
+    #datos h2{
+        border-left: 5px solid orange;
+        text-align: left;
+        padding-left: 15px;
+        margin: 10px;
+    }
+    #paises span{
+        display: inline-block;
+        vertical-align: top;
+        width: 150px;
+    }
+    #itinerario{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        padding-top: 0;
+    }
+    #itinerario h2{
+    width: 100%;
+    border-left: 5px solid orange;
+    text-align: left;
+    padding-left: 15px;
+    margin: 10px;
+    }
+    #itinerario div{
+    width: 31%;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #fff3e0;
+    }
+    #itinerario h3{
+    border-bottom: 5px solid orange;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    }
+    #itinerario p{
+    text-align: left;
+    margin: 10px;
+    }
+
     footer{
         text-align: center;
         border-top: 1px solid black;
